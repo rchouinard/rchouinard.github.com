@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://rchouinard.github.com/pear</id>
+    <updated>2011-09-14T09:26:07-04:00</updated>
+    <title>Ryan Chouinard's PEAR channel Latest Releases</title>
+    <link href="http://rchouinard.github.com/pear/feed.xml" rel="self" />
+    <author>
+        <name>http://rchouinard.github.com/pear</name>
+    </author>
+
+
+</feed>
