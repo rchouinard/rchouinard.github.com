@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <server>
-    <name>pear.ryanchouinard.com</name>
+    <name>rchouinard.github.com/pear</name>
     <summary>Ryan Chouinard's PEAR channel</summary>
     <alias>rych</alias>
     <url>http://rchouinard.github.com/pear</url>
