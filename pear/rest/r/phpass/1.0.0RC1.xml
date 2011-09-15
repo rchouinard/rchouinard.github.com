@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
-    <p xlink:href="/rest/p/phpass">phpass</p>
+    <p xlink:href="/rest/p/phpass">PHPass</p>
     <c>rchouinard.github.com/pear</c>
-    <v>0.5.0</v>
+    <v>1.0.0RC1</v>
     <st>beta</st>
-    <l>Public Domain</l>
+    <l>MIT</l>
     <m>rchouinard</m>
-    <s>A reimplementation of the PHPass library using PHP5 conventions.</s>
+    <s>PHPass: Portable PHP password hashing framework</s>
     <d>This library is a reimplementation of the PHPass class. The output is 100% compatible with the original, the library is simply updated to be more extensible.
 
 The PHPass library uses two main methods to generate secure password hashes. The first is simply to use salts and high-quality one-way hash functions. The use of cryptographic salts prevents an attacker from using rainbow tables for password lookup. The only way for an attacker to determine the original password is to use either dictionary or brute-force methods.
@@ -14,11 +14,11 @@ The PHPass library uses two main methods to generate secure password hashes. The
 The second method is to utilize key stretching. Key stretching makes hash generation exponentially more computationally expensive. This means that instead of being able to try 100 passwords per second, an attacker might only be able to try 10.
 
 These methods, combined with a good (yet sane!) password policy will create password hashes which are highly improbable to crack.</d>
-    <da>2011-09-14 14:37:24</da>
+    <da>2011-09-15 00:34:52</da>
     <n>
-Initial PEAR release.
+Initial PEAR release
  </n>
-    <f>5782</f>
-    <g>http://rchouinard.github.com/pear/get/phpass-0.5.0</g>
-    <x xlink:href="package.0.5.0.xml"/>
+    <f>5952</f>
+    <g>http://rchouinard.github.com/pear/get/PHPass-1.0.0RC1</g>
+    <x xlink:href="package.1.0.0RC1.xml"/>
 </r>

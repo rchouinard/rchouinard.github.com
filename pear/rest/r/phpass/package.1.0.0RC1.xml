@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
- <name>phpass</name>
+ <name>PHPass</name>
  <channel>rchouinard.github.com/pear</channel>
- <summary>A reimplementation of the PHPass library using PHP5 conventions.</summary>
+ <summary>PHPass: Portable PHP password hashing framework</summary>
  <description>This library is a reimplementation of the PHPass class. The output is 100% compatible with the original, the library is simply updated to be more extensible.
 
 The PHPass library uses two main methods to generate secure password hashes. The first is simply to use salts and high-quality one-way hash functions. The use of cryptographic salts prevents an attacker from using rainbow tables for password lookup. The only way for an attacker to determine the original password is to use either dictionary or brute-force methods.
@@ -16,32 +16,32 @@ These methods, combined with a good (yet sane!) password policy will create pass
   <email>rchouinard@gmail.com</email>
   <active>yes</active>
  </lead>
- <date>2011-09-14</date>
- <time>14:37:24</time>
+ <date>2011-09-15</date>
+ <time>00:34:52</time>
  <version>
-  <release>0.5.0</release>
-  <api>0.5.0</api>
+  <release>1.0.0RC1</release>
+  <api>1.0.0RC1</api>
  </version>
  <stability>
   <release>beta</release>
   <api>beta</api>
  </stability>
- <license>Public Domain</license>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
  <notes>
-Initial PEAR release.
+Initial PEAR release
  </notes>
  <contents>
   <dir baseinstalldir="." name="/">
-   <file baseinstalldir="." md5sum="bb3263274d5719cb277148551a53f299" name="Phpass.php" role="php" />
    <file baseinstalldir="." md5sum="b1b76f33ea6410c26beabc86abb52366" name="Phpass/Adapter.php" role="php" />
    <file baseinstalldir="." md5sum="eda4b81aca39b09d812d834cf4dd546b" name="Phpass/Exception.php" role="php" />
-   <file baseinstalldir="." md5sum="baf777517a32c496433a0fd8da5f2685" name="Phpass/Adapter/Base.php" role="php" />
-   <file baseinstalldir="." md5sum="be80abfe8e6536421d4f796f02aca969" name="Phpass/Adapter/Blowfish.php" role="php" />
-   <file baseinstalldir="." md5sum="3b4c3cd8dc4bdfe98ba087518339da7b" name="Phpass/Adapter/ExtDes.php" role="php" />
-   <file baseinstalldir="." md5sum="7da53310fed5522c0701c3bc0cec84b2" name="Phpass/Adapter/Portable.php" role="php" />
-   <file baseinstalldir="." md5sum="feb4a88ccfc7662a3cbd19a33eb9904b" name="Phpass/Exception/InvalidArgumentException.php" role="php" />
-   <file baseinstalldir="." md5sum="6b4f6249371a21949c4d1c309e0025e0" name="Phpass/Exception/RuntimeException.php" role="php" />
-   <file baseinstalldir="." md5sum="3383abe9cce1c81642b559cd0632c772" name="Phpass/Exception/UnexpectedValueException.php" role="php" />
+   <file baseinstalldir="." md5sum="92a4a177d9c91a98bb696bec678092c6" name="Phpass/Adapter/Base.php" role="php" />
+   <file baseinstalldir="." md5sum="779cd0e7f239e4b9b79d25e081cd907f" name="Phpass/Adapter/Blowfish.php" role="php" />
+   <file baseinstalldir="." md5sum="abdf0f5bb9f2d907527e5e6a882a1dc1" name="Phpass/Adapter/ExtDes.php" role="php" />
+   <file baseinstalldir="." md5sum="bf1b81d2cfbb97eb6c068f616f598709" name="Phpass/Adapter/Portable.php" role="php" />
+   <file baseinstalldir="." md5sum="d68bfbc272d945807c45acc06ffa4a58" name="Phpass/Exception/InvalidArgumentException.php" role="php" />
+   <file baseinstalldir="." md5sum="b84827423f42f1ef1432d9b6a8de397d" name="Phpass/Exception/RuntimeException.php" role="php" />
+   <file baseinstalldir="." md5sum="731df572ff6812684e9ed0e2d6852acb" name="Phpass/Exception/UnexpectedValueException.php" role="php" />
+   <file baseinstalldir="." md5sum="bb3263274d5719cb277148551a53f299" name="Phpass.php" role="php" />
   </dir>
  </contents>
  <dependencies>
@@ -58,17 +58,17 @@ Initial PEAR release.
  <changelog>
   <release>
    <version>
-    <release>0.5.0</release>
-    <api>0.5.0</api>
+    <release>1.0.0RC1</release>
+    <api>1.0.0RC1</api>
    </version>
    <stability>
     <release>beta</release>
     <api>beta</api>
    </stability>
    <date>2011-09-14</date>
-   <license>Public Domain</license>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
    <notes>
-Initial PEAR release.
+Initial PEAR release
    </notes>
   </release>
  </changelog>
