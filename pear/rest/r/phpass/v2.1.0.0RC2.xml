@@ -2,19 +2,19 @@
 <r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
     <p xlink:href="/rest/p/phpass">PHPass</p>
     <c>rchouinard.github.com/pear</c>
-    <v>1.0.0RC1</v>
-    <a>1.0.0RC1</a>
+    <v>1.0.0RC2</v>
+    <a>1.0.0</a>
     <mp>5.3.1</mp>
     <st>beta</st>
     <l>MIT</l>
     <m>rchouinard</m>
     <s>PHPass: Portable PHP password hashing framework</s>
     <d>PHPass is a library useful in creating secure password hashes suitable for storage in a database.</d>
-    <da>2011-09-15 00:34:52</da>
+    <da>2011-10-04 19:50:41</da>
     <n>
-Initial PEAR release
+Added support for HMAC + bcrypt.
  </n>
-    <f>5952</f>
-    <g>http://rchouinard.github.com/pear/get/PHPass-1.0.0RC1</g>
-    <x xlink:href="package.1.0.0RC1.xml"/>
+    <f>5976</f>
+    <g>http://rchouinard.github.com/pear/get/PHPass-1.0.0RC2</g>
+    <x xlink:href="package.1.0.0RC2.xml"/>
 </r>

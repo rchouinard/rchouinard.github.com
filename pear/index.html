@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Ryan Chouinard's PEAR channel</title>
-    <link rel="stylesheet" type="text/css" href="http://rchouinard.github.com/pear/pirum.css" />
+    <link rel="stylesheet" type="text/css" href="pirum.css" />
     <link rel="alternate" type="application/rss+xml" href="http://rchouinard.github.com/pear/feed.xml" title="Ryan Chouinard's PEAR channel Latest Releases" />
 </head>
 <body>
@@ -13,8 +13,6 @@
         </div>
         <div id="bd">
             <div class="yui-g">
-                <h2>Using this Channel</h2>
-                <p>This channel is to be used with the PEAR installer.</p>
                 <em>Registering</em> the channel:
                 <pre><code>pear channel-discover rchouinard.github.com/pear</code></pre>
                 <em>Listing</em> available packages:
@@ -27,29 +25,18 @@ pear install rych/package_name-beta</code></pre>
                 <em>Receiving</em> updates via a <a href="http://rchouinard.github.com/pear/feed.xml">feed</a>:
                 <pre><code>http://rchouinard.github.com/pear/feed.xml</code></pre>
 
-                <h2>Packages</h2>
-
                                     <h3>PHPass<small> - PHPass: Portable PHP password hashing framework</small></h3>
-                    <p>This library is a reimplementation of the PHPass class. The output is 100% compatible with the original, the library is simply updated to be more extensible.
-
-The PHPass library uses two main methods to generate secure password hashes. The first is simply to use salts and high-quality one-way hash functions. The use of cryptographic salts prevents an attacker from using rainbow tables for password lookup. The only way for an attacker to determine the original password is to use either dictionary or brute-force methods.
-
-The second method is to utilize key stretching. Key stretching makes hash generation exponentially more computationally expensive. This means that instead of being able to try 100 passwords per second, an attacker might only be able to try 10.
-
-These methods, combined with a good (yet sane!) password policy will create password hashes which are highly improbable to crack.</p>
-                    <ul>
-                        <li><strong>Package name</strong>: PHPass</li>
-                        <li><strong>License</strong>: MIT</li>
-                                                <li><strong>Maintainers</strong>: Ryan Chouinard (as lead)</li>
-                                                <li><strong>Releases</strong>: <a href="http://rchouinard.github.com/pear/get/PHPass-1.0.0RC1.tgz">1.0.0RC1</a> (beta)</li>
-                        <li><strong>Install command</strong>: pear install rych/PHPass</li>
-                    </ul>
-
-                    <hr />
+                    <p>PHPass is a library useful in creating secure password hashes suitable for storage in a database.</p>
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install rych/PHPass</strong></td></tr>
+                        <tr><th>License</th><td>MIT</td></tr>
+                                                                        <tr><th>Maintainers</th><td>Ryan Chouinard <small>(as lead)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://rchouinard.github.com/pear/get/PHPass-1.0.0RC2.tgz">1.0.0RC2</a> <small>(beta)</small>, <a href="http://rchouinard.github.com/pear/get/PHPass-1.0.0RC1.tgz">1.0.0RC1</a> <small>(beta)</small></td></tr>
+                    </table>
                             </div>
         </div>
         <div id="ft">
-            <p><small>The <em>rchouinard.github.com/pear</em> PEAR Channel Server is proudly powered by <a href="http://www.pirum-project.org/">Pirum</a> 1.0.2</small></p>
+            <p><small>The <em>rchouinard.github.com/pear</em> PEAR Channel Server is proudly powered by <a href="http://pirum.sensiolabs.org/">Pirum</a> 1.0.3</small></p>
         </div>
     </div>
 </body>

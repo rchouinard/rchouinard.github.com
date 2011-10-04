@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://rchouinard.github.com/pear</id>
-    <updated>2011-09-14T20:36:09-04:00</updated>
+    <updated>2011-10-04T15:51:44-04:00</updated>
     <title>Ryan Chouinard's PEAR channel Latest Releases</title>
     <link href="http://rchouinard.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,17 @@
     </author>
 
     <entry>
+        <title>PHPass 1.0.0RC2 (beta)</title>
+        <link href="http://rchouinard.github.com/pear/get/PHPass-1.0.0RC2.tgz" />
+        <id>http://rchouinard.github.com/pear/get/PHPass-1.0.0RC2.tgz</id>
+        <author>
+            <name>rchouinard</name>
+        </author>
+        <updated>2011-10-04T19:50:41-04:00</updated>
+        <content>
+            PHPass is a library useful in creating secure password hashes suitable for storage in a database.
+        </content>
+    </entry>    <entry>
         <title>PHPass 1.0.0RC1 (beta)</title>
         <link href="http://rchouinard.github.com/pear/get/PHPass-1.0.0RC1.tgz" />
         <id>http://rchouinard.github.com/pear/get/PHPass-1.0.0RC1.tgz</id>
@@ -17,13 +28,7 @@
         </author>
         <updated>2011-09-15T00:34:52-04:00</updated>
         <content>
-            This library is a reimplementation of the PHPass class. The output is 100% compatible with the original, the library is simply updated to be more extensible.
-
-The PHPass library uses two main methods to generate secure password hashes. The first is simply to use salts and high-quality one-way hash functions. The use of cryptographic salts prevents an attacker from using rainbow tables for password lookup. The only way for an attacker to determine the original password is to use either dictionary or brute-force methods.
-
-The second method is to utilize key stretching. Key stretching makes hash generation exponentially more computationally expensive. This means that instead of being able to try 100 passwords per second, an attacker might only be able to try 10.
-
-These methods, combined with a good (yet sane!) password policy will create password hashes which are highly improbable to crack.
+            PHPass is a library useful in creating secure password hashes suitable for storage in a database.
         </content>
     </entry>
 </feed>

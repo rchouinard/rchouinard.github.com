@@ -5,12 +5,6 @@
 <ca xlink:href="/rest/c/Default">Default</ca>
 <l>MIT</l>
 <s>PHPass: Portable PHP password hashing framework</s>
-<d>This library is a reimplementation of the PHPass class. The output is 100% compatible with the original, the library is simply updated to be more extensible.
-
-The PHPass library uses two main methods to generate secure password hashes. The first is simply to use salts and high-quality one-way hash functions. The use of cryptographic salts prevents an attacker from using rainbow tables for password lookup. The only way for an attacker to determine the original password is to use either dictionary or brute-force methods.
-
-The second method is to utilize key stretching. Key stretching makes hash generation exponentially more computationally expensive. This means that instead of being able to try 100 passwords per second, an attacker might only be able to try 10.
-
-These methods, combined with a good (yet sane!) password policy will create password hashes which are highly improbable to crack.</d>
+<d>PHPass is a library useful in creating secure password hashes suitable for storage in a database.</d>
 <r xlink:href="/rest/r/phpass" />
 </p>
