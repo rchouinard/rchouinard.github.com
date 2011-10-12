@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPass</name>
+ <channel>rchouinard.github.com/pear</channel>
+ <summary>PHPass: Portable PHP password hashing framework</summary>
+ <description>PHPass is a library useful in creating secure password hashes suitable for storage in a database.</description>
+ <lead>
+  <name>Ryan Chouinard</name>
+  <user>rchouinard</user>
+  <email>rchouinard@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-10-12</date>
+ <time>22:11:00</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+ <notes>
+Added support for PBKDF2 HMAC-SHA2
+ </notes>
+ <contents>
+  <dir baseinstalldir="." name="/">
+   <file baseinstalldir="." md5sum="678a4f7daab1065883d51dc07f2d7532" name="Phpass/Adapter.php" role="php" />
+   <file baseinstalldir="." md5sum="8d4ac1c3820ebf2ef841cd88fdc27e3a" name="Phpass/Exception.php" role="php" />
+   <file baseinstalldir="." md5sum="62fdf190f985d28e0d972028b5d59cf2" name="Phpass/Adapter/Base.php" role="php" />
+   <file baseinstalldir="." md5sum="98a86d86676e811e8d8f74a22d35da1b" name="Phpass/Adapter/Blowfish.php" role="php" />
+   <file baseinstalldir="." md5sum="c0f7702dfb2ebc7b2d127e1dfa920bc2" name="Phpass/Adapter/ExtDes.php" role="php" />
+   <file baseinstalldir="." md5sum="3cee2648d943e9dc4a87a38e866b3562" name="Phpass/Adapter/Pbkdf2.php" role="php" />
+   <file baseinstalldir="." md5sum="984b543bc0d2e294fee78ef06f69909e" name="Phpass/Adapter/Portable.php" role="php" />
+   <file baseinstalldir="." md5sum="3e3929eb56cc60fa4cc7d5d513bd753d" name="Phpass/Exception/InvalidArgumentException.php" role="php" />
+   <file baseinstalldir="." md5sum="d0c56291a96a2a8f681cf4defc1e7d2b" name="Phpass/Exception/RuntimeException.php" role="php" />
+   <file baseinstalldir="." md5sum="29f31ce885f4bfe77e0b04c0221c58a2" name="Phpass/Exception/UnexpectedValueException.php" role="php" />
+   <file baseinstalldir="." md5sum="5b33a2f7be01f0e640ebfdc764482ccc" name="Phpass.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.1</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0RC1</release>
+    <api>1.0.0RC1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Initial PEAR release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0RC2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-10-04</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Added support for HMAC + bcrypt.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-10-12</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Added support for PBKDF2 HMAC-SHA2
+   </notes>
+  </release>
+ </changelog>
+</package>

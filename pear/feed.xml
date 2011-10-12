@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://rchouinard.github.com/pear</id>
-    <updated>2011-10-04T15:51:44-04:00</updated>
+    <updated>2011-10-12T18:11:43-04:00</updated>
     <title>Ryan Chouinard's PEAR channel Latest Releases</title>
     <link href="http://rchouinard.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,17 @@
     </author>
 
     <entry>
+        <title>PHPass 1.0.0 (stable)</title>
+        <link href="http://rchouinard.github.com/pear/get/PHPass-1.0.0.tgz" />
+        <id>http://rchouinard.github.com/pear/get/PHPass-1.0.0.tgz</id>
+        <author>
+            <name>rchouinard</name>
+        </author>
+        <updated>2011-10-12T22:11:00-04:00</updated>
+        <content>
+            PHPass is a library useful in creating secure password hashes suitable for storage in a database.
+        </content>
+    </entry>    <entry>
         <title>PHPass 1.0.0RC2 (beta)</title>
         <link href="http://rchouinard.github.com/pear/get/PHPass-1.0.0RC2.tgz" />
         <id>http://rchouinard.github.com/pear/get/PHPass-1.0.0RC2.tgz</id>
