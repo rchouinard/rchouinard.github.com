@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://rchouinard.github.com/pear</id>
-    <updated>2011-10-12T18:11:43-04:00</updated>
+    <updated>2012-02-19T15:44:51-05:00</updated>
     <title>Ryan Chouinard's PEAR channel Latest Releases</title>
     <link href="http://rchouinard.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,25 @@
     </author>
 
     <entry>
+        <title>PHPass 2.0.0 (stable)</title>
+        <link href="http://rchouinard.github.com/pear/get/PHPass-2.0.0.tgz" />
+        <id>http://rchouinard.github.com/pear/get/PHPass-2.0.0.tgz</id>
+        <author>
+            <name>rchouinard</name>
+        </author>
+        <updated>2012-02-19T20:44:26-05:00</updated>
+        <content>
+            
+- Added functionality for calculating password strength scores based on various algorithms.
+- Removed \Phpass base class.
+- Added \Phpass\Hash and \Phpass\Strength classes.
+- Moved hash adapter classes into \Phpass\Hash\Adapter namespace.
+- Created \Phpass\Strength\Adapter namespace for strength calculator adapters.
+- First pass at making the library PSR-0 compliant.
+- Addition of library autoloader functionality.
+ 
+        </content>
+    </entry>    <entry>
         <title>PHPass 1.0.0 (stable)</title>
         <link href="http://rchouinard.github.com/pear/get/PHPass-1.0.0.tgz" />
         <id>http://rchouinard.github.com/pear/get/PHPass-1.0.0.tgz</id>
@@ -17,7 +36,9 @@
         </author>
         <updated>2011-10-12T22:11:00-04:00</updated>
         <content>
-            PHPass is a library useful in creating secure password hashes suitable for storage in a database.
+            
+Added support for PBKDF2 HMAC-SHA2
+ 
         </content>
     </entry>    <entry>
         <title>PHPass 1.0.0RC2 (beta)</title>
@@ -28,7 +49,9 @@
         </author>
         <updated>2011-10-04T19:50:41-04:00</updated>
         <content>
-            PHPass is a library useful in creating secure password hashes suitable for storage in a database.
+            
+Added support for HMAC + bcrypt.
+ 
         </content>
     </entry>    <entry>
         <title>PHPass 1.0.0RC1 (beta)</title>
@@ -39,7 +62,9 @@
         </author>
         <updated>2011-09-15T00:34:52-04:00</updated>
         <content>
-            PHPass is a library useful in creating secure password hashes suitable for storage in a database.
+            
+Initial PEAR release
+ 
         </content>
     </entry>
 </feed>

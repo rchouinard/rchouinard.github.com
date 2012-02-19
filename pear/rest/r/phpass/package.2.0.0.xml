@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPass</name>
+ <channel>rchouinard.github.com/pear</channel>
+ <summary>PHPass: PHP Password Library</summary>
+ <description>Easy, secure password management for PHP developers.</description>
+ <lead>
+  <name>Ryan Chouinard</name>
+  <user>rchouinard</user>
+  <email>rchouinard@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-02-19</date>
+ <time>20:44:26</time>
+ <version>
+  <release>2.0.0</release>
+  <api>2.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+ <notes>
+- Added functionality for calculating password strength scores based on various algorithms.
+- Removed \Phpass base class.
+- Added \Phpass\Hash and \Phpass\Strength classes.
+- Moved hash adapter classes into \Phpass\Hash\Adapter namespace.
+- Created \Phpass\Strength\Adapter namespace for strength calculator adapters.
+- First pass at making the library PSR-0 compliant.
+- Addition of library autoloader functionality.
+ </notes>
+ <contents>
+  <dir baseinstalldir="." name="/">
+   <file baseinstalldir="." md5sum="880e8303fb2ea97c45528f433457f505" name="Phpass/Exception.php" role="php" />
+   <file baseinstalldir="." md5sum="3e1a84e30470787b8df9301748f231c8" name="Phpass/Hash.php" role="php" />
+   <file baseinstalldir="." md5sum="70395cb717fa051284349e69340d2856" name="Phpass/Loader.php" role="php" />
+   <file baseinstalldir="." md5sum="25980d33a457f5d6c9e31e3109e9602f" name="Phpass/Strength.php" role="php" />
+   <file baseinstalldir="." md5sum="0b0c7ba9c54be228fb6c18695eed834f" name="Phpass/Exception/InvalidArgumentException.php" role="php" />
+   <file baseinstalldir="." md5sum="f3169dd1afe21d52e5e161ce68ff14d7" name="Phpass/Exception/RuntimeException.php" role="php" />
+   <file baseinstalldir="." md5sum="41ad46c2b728e63f7ce5fb75e725bb3c" name="Phpass/Exception/UnexpectedValueException.php" role="php" />
+   <file baseinstalldir="." md5sum="317076c2bb8bc80a1cf385fac117f544" name="Phpass/Hash/Adapter.php" role="php" />
+   <file baseinstalldir="." md5sum="07365c294a4aaedaa7cc78c69f436ed3" name="Phpass/Hash/Adapter/Base.php" role="php" />
+   <file baseinstalldir="." md5sum="ccc9b70b478485b67d52236b8d5cd982" name="Phpass/Hash/Adapter/Blowfish.php" role="php" />
+   <file baseinstalldir="." md5sum="0893ee608a2b85837afa52fad7afd450" name="Phpass/Hash/Adapter/ExtDes.php" role="php" />
+   <file baseinstalldir="." md5sum="c497a2df74237a7942bd8e9510e16bc4" name="Phpass/Hash/Adapter/Pbkdf2.php" role="php" />
+   <file baseinstalldir="." md5sum="961fff4824c72e7f5caec17b8fad9c4e" name="Phpass/Hash/Adapter/Portable.php" role="php" />
+   <file baseinstalldir="." md5sum="34ac4b50cbef912aaec556617cff8f66" name="Phpass/Strength/Adapter.php" role="php" />
+   <file baseinstalldir="." md5sum="11915ed52d8f922991443dc5709c1740" name="Phpass/Strength/Adapter/Base.php" role="php" />
+   <file baseinstalldir="." md5sum="bd40ca6f415b3fe8e9fd3aaee23b9ae3" name="Phpass/Strength/Adapter/Nist.php" role="php" />
+   <file baseinstalldir="." md5sum="0e28ca61183e5c1b0d91b8dfb538bdf8" name="Phpass/Strength/Adapter/Wolfram.php" role="php" />
+   <file baseinstalldir="." md5sum="6ddc8f51f3f13a780a3d505376681a4f" name="Phpass.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.1</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+   <extension>
+    <name>hash</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0RC1</release>
+    <api>1.0.0RC1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Initial PEAR release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0RC2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-10-04</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Added support for HMAC + bcrypt.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-10-12</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Added support for PBKDF2 HMAC-SHA2
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.0</release>
+    <api>2.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-02-19</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+- Added functionality for calculating password strength scores based on various algorithms.
+- Removed \Phpass base class.
+- Added \Phpass\Hash and \Phpass\Strength classes.
+- Moved hash adapter classes into \Phpass\Hash\Adapter namespace.
+- Created \Phpass\Strength\Adapter namespace for strength calculator adapters.
+- First pass at making the library PSR-0 compliant.
+- Addition of library autoloader functionality.
+   </notes>
+  </release>
+ </changelog>
+</package>

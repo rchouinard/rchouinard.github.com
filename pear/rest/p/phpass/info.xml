@@ -4,7 +4,7 @@
 <c>rchouinard.github.com/pear</c>
 <ca xlink:href="/rest/c/Default">Default</ca>
 <l>MIT</l>
-<s>PHPass: Portable PHP password hashing framework</s>
-<d>PHPass is a library useful in creating secure password hashes suitable for storage in a database.</d>
+<s>PHPass: PHP Password Library</s>
+<d>Easy, secure password management for PHP developers.</d>
 <r xlink:href="/rest/r/phpass" />
 </p>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/phpass">PHPass</p>
+    <c>rchouinard.github.com/pear</c>
+    <v>2.0.0</v>
+    <st>stable</st>
+    <l>MIT</l>
+    <m>rchouinard</m>
+    <s>PHPass: PHP Password Library</s>
+    <d>Easy, secure password management for PHP developers.</d>
+    <da>2012-02-19 20:44:26</da>
+    <n>
+- Added functionality for calculating password strength scores based on various algorithms.
+- Removed \Phpass base class.
+- Added \Phpass\Hash and \Phpass\Strength classes.
+- Moved hash adapter classes into \Phpass\Hash\Adapter namespace.
+- Created \Phpass\Strength\Adapter namespace for strength calculator adapters.
+- First pass at making the library PSR-0 compliant.
+- Addition of library autoloader functionality.
+ </n>
+    <f>10388</f>
+    <g>http://rchouinard.github.com/pear/get/PHPass-2.0.0</g>
+    <x xlink:href="package.2.0.0.xml"/>
+</r>

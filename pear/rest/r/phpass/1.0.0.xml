@@ -6,8 +6,8 @@
     <st>stable</st>
     <l>MIT</l>
     <m>rchouinard</m>
-    <s>PHPass: Portable PHP password hashing framework</s>
-    <d>PHPass is a library useful in creating secure password hashes suitable for storage in a database.</d>
+    <s>PHPass: PHP Password Library</s>
+    <d>Easy, secure password management for PHP developers.</d>
     <da>2011-10-12 22:11:00</da>
     <n>
 Added support for PBKDF2 HMAC-SHA2
