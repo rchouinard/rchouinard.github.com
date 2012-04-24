@@ -8,8 +8,8 @@
     <st>stable</st>
     <l>MIT</l>
     <m>rchouinard</m>
-    <s>PHPass: PHP Password Library</s>
-    <d>Easy, secure password management for PHP developers.</d>
+    <s>PHP Password Library</s>
+    <d>Easy, secure password management for PHP</d>
     <da>2012-02-19 20:44:26</da>
     <n>
 - Added functionality for calculating password strength scores based on various algorithms.

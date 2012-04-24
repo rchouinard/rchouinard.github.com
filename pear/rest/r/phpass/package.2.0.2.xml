@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPass</name>
+ <channel>rchouinard.github.com/pear</channel>
+ <summary>PHP Password Library</summary>
+ <description>Easy, secure password management for PHP</description>
+ <lead>
+  <name>Ryan Chouinard</name>
+  <user>rchouinard</user>
+  <email>rchouinard@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-04-24</date>
+ <time>18:44:09</time>
+ <version>
+  <release>2.0.2</release>
+  <api>2.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+ <notes>
+- Deprecated Blowfish adapter in favor of Bcrypt adapter.
+- Added flag to protable adapter to generate phpBB compatible hashes.
+- Added ability to change hash identifier when generating bcrypt hashes (2a, 2x, 2y - defaults to 2y).
+ </notes>
+ <contents>
+  <dir baseinstalldir="." name="/">
+   <file baseinstalldir="." md5sum="01cb48f4371c25a34f9cc8c33d6b2873" name="Phpass/Exception.php" role="php" />
+   <file baseinstalldir="." md5sum="7111f591ad08ca5299c033708176524c" name="Phpass/Hash.php" role="php" />
+   <file baseinstalldir="." md5sum="e8b5e98d17b5b80d31d366f011d48c21" name="Phpass/Loader.php" role="php" />
+   <file baseinstalldir="." md5sum="41e03f3263e190571969822ab7d3fab6" name="Phpass/Strength.php" role="php" />
+   <file baseinstalldir="." md5sum="5320709381c65416de835fa06e35acfc" name="Phpass/Exception/InvalidArgumentException.php" role="php" />
+   <file baseinstalldir="." md5sum="430ba7c6e20fd33bc5e7370a49b928f8" name="Phpass/Exception/RuntimeException.php" role="php" />
+   <file baseinstalldir="." md5sum="4bc803904aca186e1e44dcd6d36d8fa4" name="Phpass/Exception/UnexpectedValueException.php" role="php" />
+   <file baseinstalldir="." md5sum="de05b4fbd4d6e2eecfb286a09f79ccae" name="Phpass/Hash/Adapter.php" role="php" />
+   <file baseinstalldir="." md5sum="19628ac4af40c3b4cd50c72c248afe81" name="Phpass/Hash/Adapter/Base.php" role="php" />
+   <file baseinstalldir="." md5sum="97593661b2e77d121b3f83940cd324fc" name="Phpass/Hash/Adapter/Bcrypt.php" role="php" />
+   <file baseinstalldir="." md5sum="97ee20d73241cbe8180f71c9fced67f8" name="Phpass/Hash/Adapter/Blowfish.php" role="php" />
+   <file baseinstalldir="." md5sum="6833c5ad4e694555f2195343bd220813" name="Phpass/Hash/Adapter/ExtDes.php" role="php" />
+   <file baseinstalldir="." md5sum="f518519fc537e956e3138fa15fff9e4c" name="Phpass/Hash/Adapter/Pbkdf2.php" role="php" />
+   <file baseinstalldir="." md5sum="5217b7044152134b2c4dcb6489fa11e6" name="Phpass/Hash/Adapter/Portable.php" role="php" />
+   <file baseinstalldir="." md5sum="1f9006bc748ce6c6af3526db1e43d04c" name="Phpass/Strength/Adapter.php" role="php" />
+   <file baseinstalldir="." md5sum="195afc7352cc41f87875acc12e04ef00" name="Phpass/Strength/Adapter/Base.php" role="php" />
+   <file baseinstalldir="." md5sum="5afb72302a3516303078ff12b9be079f" name="Phpass/Strength/Adapter/Nist.php" role="php" />
+   <file baseinstalldir="." md5sum="d462001e728c71c05ab025bb1f8c049a" name="Phpass/Strength/Adapter/Wolfram.php" role="php" />
+   <file baseinstalldir="." md5sum="0dc49e194c270143b9a3cf9285ea2350" name="Phpass.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.7</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+   <extension>
+    <name>hash</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0RC1</release>
+    <api>1.0.0RC1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Initial PEAR release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0RC2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-10-04</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Added support for HMAC + bcrypt.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-10-12</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Added support for PBKDF2 HMAC-SHA2
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.0</release>
+    <api>2.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-02-19</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+- Added functionality for calculating password strength scores based on various algorithms.
+- Removed \Phpass base class.
+- Added \Phpass\Hash and \Phpass\Strength classes.
+- Moved hash adapter classes into \Phpass\Hash\Adapter namespace.
+- Created \Phpass\Strength\Adapter namespace for strength calculator adapters.
+- First pass at making the library PSR-0 compliant.
+- Addition of library autoloader functionality.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.2</release>
+    <api>2.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-04-24</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+- Deprecated Blowfish adapter in favor of Bcrypt adapter.
+- Added flag to protable adapter to generate phpBB compatible hashes.
+- Added ability to change hash identifier when generating bcrypt hashes (2a, 2x, 2y - defaults to 2y).
+   </notes>
+  </release>
+ </changelog>
+</package>

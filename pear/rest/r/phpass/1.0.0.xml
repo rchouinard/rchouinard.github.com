@@ -6,8 +6,8 @@
     <st>stable</st>
     <l>MIT</l>
     <m>rchouinard</m>
-    <s>PHPass: PHP Password Library</s>
-    <d>Easy, secure password management for PHP developers.</d>
+    <s>PHP Password Library</s>
+    <d>Easy, secure password management for PHP</d>
     <da>2011-10-12 22:11:00</da>
     <n>
 Added support for PBKDF2 HMAC-SHA2

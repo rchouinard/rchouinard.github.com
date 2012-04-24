@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://rchouinard.github.com/pear</id>
-    <updated>2012-02-19T15:44:51-05:00</updated>
+    <updated>2012-04-24T14:46:41-04:00</updated>
     <title>Ryan Chouinard's PEAR channel Latest Releases</title>
     <link href="http://rchouinard.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,21 @@
     </author>
 
     <entry>
+        <title>PHPass 2.0.2 (stable)</title>
+        <link href="http://rchouinard.github.com/pear/get/PHPass-2.0.2.tgz" />
+        <id>http://rchouinard.github.com/pear/get/PHPass-2.0.2.tgz</id>
+        <author>
+            <name>rchouinard</name>
+        </author>
+        <updated>2012-04-24T18:44:09-04:00</updated>
+        <content>
+            
+- Deprecated Blowfish adapter in favor of Bcrypt adapter.
+- Added flag to protable adapter to generate phpBB compatible hashes.
+- Added ability to change hash identifier when generating bcrypt hashes (2a, 2x, 2y - defaults to 2y).
+ 
+        </content>
+    </entry>    <entry>
         <title>PHPass 2.0.0 (stable)</title>
         <link href="http://rchouinard.github.com/pear/get/PHPass-2.0.0.tgz" />
         <id>http://rchouinard.github.com/pear/get/PHPass-2.0.0.tgz</id>

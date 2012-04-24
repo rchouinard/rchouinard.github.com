@@ -2,19 +2,21 @@
 <r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
     <p xlink:href="/rest/p/phpass">PHPass</p>
     <c>rchouinard.github.com/pear</c>
-    <v>1.0.0RC2</v>
-    <a>1.0.0</a>
-    <mp>5.3.1</mp>
-    <st>beta</st>
+    <v>2.0.2</v>
+    <a>2.0.0</a>
+    <mp>5.3.7</mp>
+    <st>stable</st>
     <l>MIT</l>
     <m>rchouinard</m>
     <s>PHP Password Library</s>
     <d>Easy, secure password management for PHP</d>
-    <da>2011-10-04 19:50:41</da>
+    <da>2012-04-24 18:44:09</da>
     <n>
-Added support for HMAC + bcrypt.
+- Deprecated Blowfish adapter in favor of Bcrypt adapter.
+- Added flag to protable adapter to generate phpBB compatible hashes.
+- Added ability to change hash identifier when generating bcrypt hashes (2a, 2x, 2y - defaults to 2y).
  </n>
-    <f>5976</f>
-    <g>http://rchouinard.github.com/pear/get/PHPass-1.0.0RC2</g>
-    <x xlink:href="package.1.0.0RC2.xml"/>
+    <f>12194</f>
+    <g>http://rchouinard.github.com/pear/get/PHPass-2.0.2</g>
+    <x xlink:href="package.2.0.2.xml"/>
 </r>
