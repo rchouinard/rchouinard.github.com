@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://rchouinard.github.com/pear</id>
-    <updated>2012-04-24T14:46:41-04:00</updated>
+    <updated>2012-08-08T00:19:22-04:00</updated>
     <title>Ryan Chouinard's PEAR channel Latest Releases</title>
     <link href="http://rchouinard.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,39 @@
     </author>
 
     <entry>
+        <title>PHPass 2.1.0beta1 (beta)</title>
+        <link href="http://rchouinard.github.com/pear/get/PHPass-2.1.0beta1.tgz" />
+        <id>http://rchouinard.github.com/pear/get/PHPass-2.1.0beta1.tgz</id>
+        <author>
+            <name>rchouinard</name>
+        </author>
+        <updated>2012-08-08T04:12:18-04:00</updated>
+        <content>
+            
+This is a beta release! Come changes are not backwards-compatible with previous
+releases. Please be sure to test this release thoroughly before using it in a
+live environment!
+
+  - Update API to add new verify() methods.
+    These are used to verify that a config string or hash belongs to an adapter.
+
+  - Dropped Blowfish alias for Bcrypt adapter.
+
+  - Added Md5Crypt adapter.
+
+  - Added Sha1Crypt adapter.
+
+  - Added Sha256Crypt adapter.
+
+  - Added Sha512Crypt adapter.
+
+  - Update PBKDF2 adapter to be compatible with other standards.
+    The output of the PBKDF2 adapter is NOT compatible with previous versions!
+
+  - Other bug fixes and enhancements.
+ 
+        </content>
+    </entry>    <entry>
         <title>PHPass 2.0.2 (stable)</title>
         <link href="http://rchouinard.github.com/pear/get/PHPass-2.0.2.tgz" />
         <id>http://rchouinard.github.com/pear/get/PHPass-2.0.2.tgz</id>

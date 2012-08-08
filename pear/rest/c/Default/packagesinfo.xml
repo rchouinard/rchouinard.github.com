@@ -13,6 +13,10 @@
 
         <a>
             <r>
+                <v>2.1.0beta1</v>
+                <s>beta</s>
+            </r>
+            <r>
                 <v>2.0.2</v>
                 <s>stable</s>
             </r>
@@ -35,6 +39,10 @@
 
         </a>
 
+        <deps>
+            <v>2.1.0beta1</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.8";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}s:9:"extension";a:1:{s:4:"name";s:4:"hash";}}s:8:"optional";a:1:{s:9:"extension";a:1:{s:4:"name";s:7:"openssl";}}}</d>
+        </deps>
         <deps>
             <v>2.0.2</v>
             <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.7";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}s:9:"extension";a:1:{s:4:"name";s:4:"hash";}}}</d>

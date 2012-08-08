@@ -3,6 +3,11 @@
     <p>PHPass</p>
     <c>rchouinard.github.com/pear</c>
     <r>
+        <v>2.1.0beta1</v>
+        <s>beta</s>
+        <m>5.3.8</m>
+    </r>
+    <r>
         <v>2.0.2</v>
         <s>stable</s>
         <m>5.3.7</m>

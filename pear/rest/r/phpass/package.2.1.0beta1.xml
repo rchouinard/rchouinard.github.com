@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPass</name>
+ <channel>rchouinard.github.com/pear</channel>
+ <summary>PHP Password Library</summary>
+ <description>Easy, secure password management for PHP</description>
+ <lead>
+  <name>Ryan Chouinard</name>
+  <user>rchouinard</user>
+  <email>rchouinard@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-08-08</date>
+ <time>04:12:18</time>
+ <version>
+  <release>2.1.0beta1</release>
+  <api>2.1.0beta1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+ <notes>
+This is a beta release! Come changes are not backwards-compatible with previous
+releases. Please be sure to test this release thoroughly before using it in a
+live environment!
+
+  - Update API to add new verify() methods.
+    These are used to verify that a config string or hash belongs to an adapter.
+
+  - Dropped Blowfish alias for Bcrypt adapter.
+
+  - Added Md5Crypt adapter.
+
+  - Added Sha1Crypt adapter.
+
+  - Added Sha256Crypt adapter.
+
+  - Added Sha512Crypt adapter.
+
+  - Update PBKDF2 adapter to be compatible with other standards.
+    The output of the PBKDF2 adapter is NOT compatible with previous versions!
+
+  - Other bug fixes and enhancements.
+ </notes>
+ <contents>
+  <dir baseinstalldir="." name="/">
+   <file baseinstalldir="." md5sum="4aa38c6150af1d8f43e8ca725b478f5f" name="Phpass/Exception.php" role="php" />
+   <file baseinstalldir="." md5sum="b423f55c511879e190ca513f9e3989f9" name="Phpass/Hash.php" role="php" />
+   <file baseinstalldir="." md5sum="3cb77594603985e0067a9ff0d032b5e3" name="Phpass/Loader.php" role="php" />
+   <file baseinstalldir="." md5sum="8347c6d20ae9c38e095ab4531a73978a" name="Phpass/Strength.php" role="php" />
+   <file baseinstalldir="." md5sum="6aef9683b403cb021af47be2140f8501" name="Phpass/Exception/InvalidArgumentException.php" role="php" />
+   <file baseinstalldir="." md5sum="6bae015b4bb9c95a173615e2dfc71265" name="Phpass/Exception/RuntimeException.php" role="php" />
+   <file baseinstalldir="." md5sum="d6897a684362e456e24fb9f9f45c24d8" name="Phpass/Exception/UnexpectedValueException.php" role="php" />
+   <file baseinstalldir="." md5sum="9a855d7b10ddacfe61235f194801535f" name="Phpass/Hash/Adapter.php" role="php" />
+   <file baseinstalldir="." md5sum="7121baf0aa34994f0f4d6e290644ae17" name="Phpass/Hash/Adapter/Base.php" role="php" />
+   <file baseinstalldir="." md5sum="f995e589ba3403a3ec9dff00e788d2a1" name="Phpass/Hash/Adapter/Bcrypt.php" role="php" />
+   <file baseinstalldir="." md5sum="7843d68e88b43375fadbff8418a4eebb" name="Phpass/Hash/Adapter/ExtDes.php" role="php" />
+   <file baseinstalldir="." md5sum="689a50409a2f0a06c01bdafa0ad2ab64" name="Phpass/Hash/Adapter/Md5Crypt.php" role="php" />
+   <file baseinstalldir="." md5sum="c64d1ab3e1e56b236d8e26461b4c3e10" name="Phpass/Hash/Adapter/Pbkdf2.php" role="php" />
+   <file baseinstalldir="." md5sum="e6c076daf846546498b401d3f0a01a36" name="Phpass/Hash/Adapter/Portable.php" role="php" />
+   <file baseinstalldir="." md5sum="53dc90d24fa051b14cf240c1de42c0e6" name="Phpass/Hash/Adapter/Sha1Crypt.php" role="php" />
+   <file baseinstalldir="." md5sum="aa6990d80f73831e07fe602a99a44c3e" name="Phpass/Hash/Adapter/Sha256Crypt.php" role="php" />
+   <file baseinstalldir="." md5sum="03358df4e1d7fa9e89f3bfed20c3d56a" name="Phpass/Hash/Adapter/Sha512Crypt.php" role="php" />
+   <file baseinstalldir="." md5sum="9950428bc140f8a8f5a75f94cb36092c" name="Phpass/Strength/Adapter.php" role="php" />
+   <file baseinstalldir="." md5sum="b3d0fa64a0db08776dc29f00beebd4c8" name="Phpass/Strength/Adapter/Base.php" role="php" />
+   <file baseinstalldir="." md5sum="66afe91cbc45eef15eb870cc3ed3c88a" name="Phpass/Strength/Adapter/Nist.php" role="php" />
+   <file baseinstalldir="." md5sum="ea83e4cb73b0fd35b5f6a875f10e2e66" name="Phpass/Strength/Adapter/Wolfram.php" role="php" />
+   <file baseinstalldir="." md5sum="cbb7bbc287dbaca4451b9f60bd0d4e97" name="Phpass.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.8</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+   <extension>
+    <name>hash</name>
+   </extension>
+  </required>
+  <optional>
+   <extension>
+    <name>openssl</name>
+   </extension>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0RC1</release>
+    <api>1.0.0RC1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Initial PEAR release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0RC2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-10-04</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Added support for HMAC + bcrypt.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-10-12</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+Added support for PBKDF2 HMAC-SHA2
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.0</release>
+    <api>2.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-02-19</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+- Added functionality for calculating password strength scores based on various algorithms.
+- Removed \Phpass base class.
+- Added \Phpass\Hash and \Phpass\Strength classes.
+- Moved hash adapter classes into \Phpass\Hash\Adapter namespace.
+- Created \Phpass\Strength\Adapter namespace for strength calculator adapters.
+- First pass at making the library PSR-0 compliant.
+- Addition of library autoloader functionality.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.2</release>
+    <api>2.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-04-24</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+- Deprecated Blowfish adapter in favor of Bcrypt adapter.
+- Added flag to protable adapter to generate phpBB compatible hashes.
+- Added ability to change hash identifier when generating bcrypt hashes (2a, 2x, 2y - defaults to 2y).
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.1.0</release>
+    <api>2.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-08-07</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+- Deprecated Blowfish adapter in favor of Bcrypt adapter.
+- Added flag to protable adapter to generate phpBB compatible hashes.
+- Added ability to change hash identifier when generating bcrypt hashes (2a, 2x, 2y - defaults to 2y).
+   </notes>
+  </release>
+ </changelog>
+</package>
