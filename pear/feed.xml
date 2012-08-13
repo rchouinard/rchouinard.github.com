@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://rchouinard.github.com/pear</id>
-    <updated>2012-08-08T00:19:22-04:00</updated>
+    <updated>2012-08-13T16:57:58-04:00</updated>
     <title>Ryan Chouinard's PEAR channel Latest Releases</title>
     <link href="http://rchouinard.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -112,6 +112,19 @@ Added support for HMAC + bcrypt.
         <content>
             
 Initial PEAR release
+ 
+        </content>
+    </entry>    <entry>
+        <title>PHPassLib 3.0.0beta1 (beta)</title>
+        <link href="http://rchouinard.github.com/pear/get/PHPassLib-3.0.0beta1.tgz" />
+        <id>http://rchouinard.github.com/pear/get/PHPassLib-3.0.0beta1.tgz</id>
+        <author>
+            <name>rchouinard</name>
+        </author>
+        <updated>2012-08-13T20:57:25-04:00</updated>
+        <content>
+            
+First beta release of 3.0 series, which introduces a new static API.
  
         </content>
     </entry>

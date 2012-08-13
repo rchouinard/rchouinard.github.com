@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPassLib</name>
+ <channel>rchouinard.github.com/pear</channel>
+ <summary>PHP Password Library</summary>
+ <description>Easy, secure password management for PHP</description>
+ <lead>
+  <name>Ryan Chouinard</name>
+  <user>rchouinard</user>
+  <email>rchouinard@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-08-13</date>
+ <time>20:57:25</time>
+ <version>
+  <release>3.0.0beta1</release>
+  <api>3.0.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+ <notes>
+First beta release of 3.0 series, which introduces a new static API.
+ </notes>
+ <contents>
+  <dir baseinstalldir="." name="/">
+   <file baseinstalldir="." md5sum="d351937269fb47f3f640fa3159b7c926" name="PHPassLib/Exception.php" role="php" />
+   <file baseinstalldir="." md5sum="1a1c5e6c26b5648abffe4882afb63f1a" name="PHPassLib/Hash.php" role="php" />
+   <file baseinstalldir="." md5sum="97d33458abe3039f7a441cab6e341c21" name="PHPassLib/Loader.php" role="php" />
+   <file baseinstalldir="." md5sum="fe50ef403a7791352fbae58a2a42b9a5" name="PHPassLib/Utilities.php" role="php" />
+   <file baseinstalldir="." md5sum="0faadcefbe8a58edd9aa43f70d849c83" name="PHPassLib/Application/Context.php" role="php" />
+   <file baseinstalldir="." md5sum="25039b6035ee9dfc33fb4ea7027e90b5" name="PHPassLib/Exception/InvalidArgumentException.php" role="php" />
+   <file baseinstalldir="." md5sum="c1063db773cdca516b5f5cada1823a55" name="PHPassLib/Exception/RuntimeException.php" role="php" />
+   <file baseinstalldir="." md5sum="0fa4dbfdc0c2e2e885ebc711965019d6" name="PHPassLib/Hash/BCrypt.php" role="php" />
+   <file baseinstalldir="." md5sum="4a19a9d682b7ff45b7bb87fa0060cb54" name="PHPassLib/Hash/BSDiCrypt.php" role="php" />
+   <file baseinstalldir="." md5sum="09f07bfcb9709f130b0853bcde36ef5f" name="PHPassLib/Hash/DESCrypt.php" role="php" />
+   <file baseinstalldir="." md5sum="a095088b4cfb6610fea80cdc842a8850" name="PHPassLib/Hash/MD5Crypt.php" role="php" />
+   <file baseinstalldir="." md5sum="4d6323624c4f8e24c7d68c4f407606b4" name="PHPassLib/Hash/PBKDF2.php" role="php" />
+   <file baseinstalldir="." md5sum="87ad80d41ce6ab861daf0003a58f3eaa" name="PHPassLib/Hash/Portable.php" role="php" />
+   <file baseinstalldir="." md5sum="11040d5f3f60d420d2502e2fadbd21fd" name="PHPassLib/Hash/SHA1Crypt.php" role="php" />
+   <file baseinstalldir="." md5sum="ef43d2a52b89175ae680bc0e549f9fff" name="PHPassLib/Hash/SHA256Crypt.php" role="php" />
+   <file baseinstalldir="." md5sum="d1e3bfd372ca5449751fba3488ae4a19" name="PHPassLib/Hash/SHA512Crypt.php" role="php" />
+   <file baseinstalldir="." md5sum="59c89df39c590531ca3e303cad88d008" name="PHPassLib.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.8</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+   <extension>
+    <name>hash</name>
+   </extension>
+  </required>
+  <optional>
+   <extension>
+    <name>openssl</name>
+   </extension>
+   <extension>
+    <name>mcrypt</name>
+   </extension>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>3.0.0beta1</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-08-13</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+First beta release of 3.0 series, which introduces a new static API.
+   </notes>
+  </release>
+ </changelog>
+</package>

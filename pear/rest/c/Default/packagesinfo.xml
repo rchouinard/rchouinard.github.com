@@ -64,5 +64,29 @@
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.1";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}}}</d>
         </deps>
 
+    </pi>    <pi>
+        <p>
+            <n>PHPassLib</n>
+            <c>rchouinard.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>MIT</l>
+            <s>PHP Password Library</s>
+            <d>Easy, secure password management for PHP</d>
+            <r xlink:href="/rest/r/phpasslib" />
+        </p>
+
+        <a>
+            <r>
+                <v>3.0.0beta1</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>3.0.0beta1</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.8";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}s:9:"extension";a:1:{s:4:"name";s:4:"hash";}}s:8:"optional";a:1:{s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:7:"openssl";}i:1;a:1:{s:4:"name";s:6:"mcrypt";}}}}</d>
+        </deps>
+
     </pi>
 </f>
