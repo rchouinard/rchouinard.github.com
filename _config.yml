@@ -1,0 +1,10 @@
+permalink: /:categories/:year/:month/:day/:title
+
+title: Ryan Chouinard
+author:
+  name: Ryan Chouinard
+  email: rchouinard@gmail.com
+  github: rchouinard
+  twitter: rchouinard
+
+production_url: http://rchouinard.github.com
